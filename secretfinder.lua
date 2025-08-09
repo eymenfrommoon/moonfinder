@@ -12,6 +12,7 @@ local TargetPets = {
     "Los Hotspotsitos",
     "Esok Sekolah",
     "Karkerkar Kurkur",
+    "Los Orcalitos",
     "Chimpanzini Spiderini",
     "Los Tralaleritos",
     "Las Tralaleritas",
@@ -146,14 +147,14 @@ local function serverHop()
             local chosen = servers[math.random(1,#servers)]
             print("Yeni server deneniyor: " .. chosen)
             TeleportService:TeleportToPlaceInstance(game.PlaceId, chosen, player)
-            task.wait(5)
+            task.wait(10)
         else
             warn("Uygun server yok, tekrar deniyor...")
-            task.wait(3)
+            task.wait(5)
         end
     else
         warn("Server listesi alınamadı, tekrar denenecek.")
-        task.wait(3)
+        task.wait(5)
     end
 end
 
