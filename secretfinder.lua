@@ -9,6 +9,9 @@ local player = Players.LocalPlayer
 -- Target pet listesi
 local TargetPets = {
     "La Vacca Saturno Saturnita",
+    "Los Hotspotsitos",
+    "Esok Sekolah",
+    "Karkerkar Kurkur",
     "Chimpanzini Spiderini",
     "Los Tralaleritos",
     "Las Tralaleritas",
