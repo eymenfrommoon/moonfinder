@@ -146,14 +146,14 @@ local function serverHop()
             local chosen = servers[math.random(1,#servers)]
             print("Yeni server deneniyor: " .. chosen)
             TeleportService:TeleportToPlaceInstance(game.PlaceId, chosen, player)
-            task.wait(10)
+            task.wait(3)
         else
             warn("Uygun server yok, tekrar deniyor...")
-            task.wait(5)
+            task.wait(3)
         end
     else
         warn("Server listesi alınamadı, tekrar denenecek.")
-        task.wait(5)
+        task.wait(3)
     end
 end
 
@@ -181,7 +181,7 @@ local function mainLoop()
             foundPets = {}
             serverHop()
         end
-        task.wait(5)
+        task.wait(3)
     end
 end
 
