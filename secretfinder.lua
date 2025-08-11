@@ -12,7 +12,6 @@ local TargetPets = {
     "Los Hotspotsitos",
     "Esok Sekolah",
     "Karkerkar Kurkur",
-    "Los Orcalitos",
     "Chimpanzini Spiderini",
     "Los Tralaleritos",
     "Las Tralaleritas",
