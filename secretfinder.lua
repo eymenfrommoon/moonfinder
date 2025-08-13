@@ -11,6 +11,7 @@ local TargetPets = {
     "La Vacca Saturno Saturnita",
     "Los Hotspotsitos",
     "Esok Sekolah",
+    "Nooo My Hotspot",
     "Karkerkar Kurkur",
     "Chimpanzini Spiderini",
     "Los Tralaleritos",
