@@ -8,25 +8,20 @@ local player = Players.LocalPlayer
 
 -- Target pet listesi
 local TargetPets = {
-    "La Vacca Saturno Saturnita",
-    "Los Hotspotsitos",
-    "Esok Sekolah",
-    "Nooo My Hotspot",
-    "Karkerkar Kurkur",
-    "Chimpanzini Spiderini",
     "Los Tralaleritos",
     "Las Tralaleritas",
     "Las Vaquitas Saturnitas",
     "Graipuss Medussi",
+    "Nooo My Hotspot",
     "Chicleteira Bicicleteira",
     "La Grande Combinasion",
-    "Nuclearo Dinossauro",
-    "Garama and Madundung",
-    "Torrtuginni Dragonfrutini",
-    "Pot Hotspot",
-    "Agarrini la Palini",
     "Los Combinasionas",
-    "Dragon Cannelloni"
+    "Nuclearo Dinossauro",
+    "Los Hotspotsitos",
+    "Garama and Madundung",
+    "Dragon Cannelloni",
+    "Pot Hotspot",
+    "Esok Sekolah"
 }
 
 local function notify(msg)
