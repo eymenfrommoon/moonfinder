@@ -10,6 +10,7 @@ local player = Players.LocalPlayer
 local TargetPets = {
     "Los Tralaleritos",
     "Las Tralaleritas",
+    "Job Job Job Sahur",
     "Las Vaquitas Saturnitas",
     "Graipuss Medussi",
     "Nooo My Hotspot",
